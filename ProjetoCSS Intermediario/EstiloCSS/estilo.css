@@ -1,0 +1,39 @@
+/*
+Modelo de Caixa
+*/
+
+.conteudo{
+	border: 1px solid red;
+	/*padding-top: 20px;
+	padding-right: 20px;
+	padding-bottom: 20px;
+	padding-left: 20px;*/
+
+/*top right bottom left*/
+/*	padding: 20px 15px 10px 5px;*/
+
+/*padding: 20px 5px; define cima e baixo com 20 direita e esquerda com 5px */
+/*padding: 20px 5px;*/
+	padding: 20px;
+ 	
+
+ /*	margin-top: 20px;
+	margin-right: 20px;
+	margin-bottom: 20px;
+	margin-left: 20px;*/
+
+	margin: 10px;
+
+	width: 150px;
+}
+
+#noticia{
+	background:linear-gradient(to right, #2193b0, #6dd5ed);
+	padding: 10px;
+}
+
+h2{
+	border: 1px solid red;
+	margin: 0px;
+}
+

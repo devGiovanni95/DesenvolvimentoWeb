@@ -1,0 +1,24 @@
+	.conteudo{
+		background: linear-gradient(to right, #2193b0, #6dd5ed);
+		border: 1px solid gray;
+		width: 200px;
+		height: 200px;
+		margin: 10px;
+		float: left;
+	}
+
+	.conteudo1{
+		background: linear-gradient(to right, #c6ffdd, #fbd786, #f7797d);
+		border: 1px solid gray;
+		width: 200px;
+		height: 200px;
+		margin: 10px;
+		float: left;
+	}
+
+	.clear{
+		/*both ignora ambos os lados*/
+		clear: left ;
+	}
+
+	

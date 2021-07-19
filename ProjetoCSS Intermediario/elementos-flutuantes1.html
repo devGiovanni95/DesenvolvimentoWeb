@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Página principal</title>
+
+<style type="text/css">
+
+	#principal{
+		border: 5px solid rebeccapurple;
+		background: linear-gradient(to right, #ff0099, #493240);
+	}
+
+	.conteudo{
+		background: linear-gradient(to right, #2193b0, #6dd5ed);
+		border: 1px solid gray;
+		width: 200px;
+		height: 200px;
+		margin: 10px;
+		float: left;
+	}
+
+/*	.conteudo1{
+		background: linear-gradient(to right, #c6ffdd, #fbd786, #f7797d);
+		border: 1px solid gray;
+		width: 200px;
+		height: 200px;
+		float: right ;  muda a posicao para uma flutuante
+	} */
+
+	.conteudo1{
+		background: linear-gradient(to right, #c6ffdd, #fbd786, #f7797d);
+		border: 1px solid gray;
+		width: 200px;
+		height: 200px;
+		margin: 10px;
+		float: left;
+	}
+
+	.clear{
+		/*both ignora ambos os lados*/
+		clear: left ;
+	}
+
+</style>
+
+</head>
+<body>
+
+	<div id="principal">
+
+		<div class="conteudo1">
+		Conteudo 1
+		</div>
+		
+		<div class="conteudo">
+		Conteudo 2
+		</div>
+		
+		<div class="conteudo">
+		Conteudo 3
+		</div>	
+	
+		<div class="clear">aa</div><!-- Utilizamos ele pois quando utilizamos elementos flutuantes ele nao deixa o plano de fundo aparecer e sobrepoe os elementos flutuantes acima utilizando essa funcionalidade de clear ela força com que o planoii de fundo apareca debaixo nos elementos flutuantes-->
+
+<!--   Ao utilizarmos a opcao de elementos flutuantes se so adicionarmos um texto numa div
+ele preencherá automaticamente ao lado dos elementos pois ele ignora a existencia deles, para  que possamos colocar logo abaixo utilizamos uma classe nova e usamos o comando de clear e a sua posicao para que ele comece logo apos esses pontos flutuantes -->
+
+		<div class="clear">
+			<p>
+				It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).
+			</p>
+		</div>
+
+
+	</div>
+
+</body>
+</html>

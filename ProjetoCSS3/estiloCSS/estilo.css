@@ -1,0 +1,9 @@
+.azul-gradiente{
+	background: linear-gradient(to right, #2193b0, #6dd5ed);
+}
+
+.texto{
+	color: red;
+	background: orange;
+}
+
