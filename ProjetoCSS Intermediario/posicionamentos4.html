@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Posicioonamentos (static, relative, absolute e fixed)</title>
+
+<style type="text/css">
+
+body{
+	background: #007fc7;
+}
+
+	#container{
+		background: #fff;
+		width: : 800px;
+/*		margin: 10px auto;*/
+		 margin: 10px 30px; 
+		 padding: 10px;
+		 position: relative;/*colocando que o id tem uma posicao relativa o p2 tera posicao relativa a div*/
+	}
+
+h1{
+
+}
+
+p{
+	width: 300px;
+	/*margin: 0px;/*ele retira o espacamento entre os paragrafos*/
+}
+
+.fixed{
+	/*quando utilizamos a posicao fixed ela fica fixa pela posicao da janela do html */
+	border: 1px solid red;
+	background: #f2f2f2;
+	margin: 0px;/*Ele retira apenas a margem das classes fixed*/
+	position: fixed;
+	top: 0px;
+	right: 0px;
+}
+
+.absolute{
+	/*quando utilizamos a posicao absoluto ele sai do fluxo da pagina*/
+	border: 1px solid red;
+	background: #f2f2f2;
+	position: absolute;
+	top: 80px;
+	right: 80px;
+}
+
+.relative{
+	border: 1px solid red;
+	/*statico e por padrao quando criamos*/
+	position: relative;/*Quando utilizamos o relativo temos que informar um valor para mover o mesmo em relacao a posicao atual
+		top, right, bottom e left
+	 */
+	 top: 10px;
+	 left: 10px;
+}
+
+</style>
+
+</head>
+<body>
+
+	<div id="container">
+		<h1>Posicionamentos</h1>
+
+		<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+
+
+		<p class="fixed">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+
+
+		<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+
+		<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+
+		<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+
+		<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+
+		<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+
+		<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+
+		<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+
+		<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+		<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+
+	</div>
+
+</body>
+</html>
