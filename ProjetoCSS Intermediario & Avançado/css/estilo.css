@@ -1,0 +1,39 @@
+/*Seletor universal*/
+/**{
+	border: 1px solid red;
+}*/
+
+/*Seletor de texto*/
+h1{
+	color:  green;
+}
+
+/*Seletor de classe*/
+
+.verde{
+	color: green;	
+}
+
+/*Para definir um seletor apenas de uma classe no caso paragrafo*/
+p.verde{
+	color: green;
+}
+
+/*Seletor de Cabeçalho*/
+
+#cabecalho{
+	border: 1px solid blue;
+}
+
+/*Seletor de Filho*/
+li>a{
+	color: red;
+	text-decoration: none;
+}
+
+p a {
+	color: purple;
+}
+/**/
+/**/
+/**/
