@@ -8,6 +8,7 @@
 body,html,#home{
 	/*border: 1px solid red;*/
 	height: 100%;
+	overflow-x: hidden;
 }
 
 
@@ -48,12 +49,81 @@ border-color: rgba(255, 255, 255, .1);/*borda branca do icone*/
 	width: 1px;
 	background: white;
 	margin: 12px 15px;
+
 }
 
 /* Capa
 ---------------------------------- */
 .capa{
 	text-align: center;
+}
+
+
+.btn-custom{
+	color: white;
+	border-radius: 500px;
+	-webkit-border-radius: 500px;
+	-moz-border-radius: 500px;
+	text-transform: uppercase;
+	transiction: background 0.4s,color 0.4s;
+	padding: 10px 15px;
+}
+
+.btn-roxo{
+	background: #7c25f8;
+}
+
+.btn-roxo: hover{
+	background: #6207e3;
+	color: white;
+}
+
+.btn-branco{
+	border: 2px solid white;
+
+}
+
+.btn-branco:hover{
+	background: white;
+	color: black;
+}
+
+
+/*Estrutura dos conteudos
+---------------------------------- */
+.caixa{
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+
+#servicos{
+	background: white;
+}
+
+#servicos h3,h2{
+	color: #7c25f8;
+}
+
+#recursos{
+	color: white;
+}
+
+#recursos h3{
+	color: #9bf0e1;
+}
+#recursos h2{
+	color: white;
+}
+
+.albuns{
+	padding: 10px 0;
+}
+
+.rotacionar{
+	-ms-transform:rotate(30deg);
+	-webkit-transform: rotate(30deg);
+	transform: rotate(30deg);
+	padding-left: 80px;
 }
 
 
@@ -66,25 +136,59 @@ h1{
 	color: white;
 }
 
+h2{
+	font-weight: 700;
+	font-size: 3em;
+	letter-spacing: -0.04em;
+}
+
+h3{
+	font-weight: 700;
+	font-size: 2em;
+	letter-spacing: -0.04em;
+}
 
 /*X-Small devices (portrait phones, less than 576px)
  No media query for `xs` since this is the default in Bootstrap*/
 
 /* Small devices (landscape phones, 576px and up)*/
-@media (min-width: 576px) { 
+@media (max-width: 576px) { 
+
+.btn-custom{
+	margin: 10px 15px;
+
+}
+
 	h1{
 		font-size: 3em;
 	}
 }
 
+
+
 /*Medium devices (tablets, 768px and up)*/
 @media (min-width: 768px) { 
+	.btn-custom{
+	margin: 10px 15px;
+
+}
+
 	h1{
 		font-size: 4em;
 	}}
 
+
+
+
 /* Large devices (desktops, 992px and up)*/
-@media (min-width: 992px) { ... }
+@media (min-width: 992px) { 
+	.btn-custom{
+	margin: 10px 15px;
+}
+
+ }
+
+
 
 /* X-Large devices (large desktops, 1200px and up)*/
 @media (min-width: 1200px) { 
